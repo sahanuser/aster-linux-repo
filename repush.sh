@@ -9,5 +9,5 @@ mv aster-linux-repo.files.tar.gz aster-linux-repo.files
 
 git add .
 git commit  -m "repo" 
-git push --set-upstream main master
+git push --set-upstream origin master
 
