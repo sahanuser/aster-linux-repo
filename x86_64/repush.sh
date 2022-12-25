@@ -8,6 +8,9 @@ mv aster-linux-repo.db.tar.gz aster-linux-repo.db
 mv aster-linux-repo.files.tar.gz aster-linux-repo.files
 
 git add .
-git commit  -m "repo" 
+echo "Enter your Commit "
+read input
+
+git commit  -m "$input" 
 git push --set-upstream origin master
 
