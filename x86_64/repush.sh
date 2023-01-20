@@ -7,7 +7,7 @@ rm -r  aster-linux-repo.files
 mv aster-linux-repo.db.tar.gz aster-linux-repo.db
 mv aster-linux-repo.files.tar.gz aster-linux-repo.files
 
-la -a | tee README
+la -a | tee README.md
 
 git add .
 
