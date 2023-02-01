@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/fish
 
 rm -r aster-linux-repo*
 repo-add -v --verify --sign aster-linux-repo.db.tar.gz *.pkg.tar.zst
